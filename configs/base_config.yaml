@@ -1,0 +1,16 @@
+paths:
+  case_template: openfoam_case
+  logs: logs
+  results: results
+
+bounds:
+  pressure_mpa: [80.0, 160.0]
+  melt_temp_k: [430.0, 510.0]
+  mold_temp_k: [300.0, 370.0]
+  cavity_count: [3, 4, 7]
+
+weights:
+  fill_time: 0.35
+  shrinkage: 0.45
+  confidence_low: 0.2
+  short_shot_penalty: 5.0
