@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.1
+pymoo>=0.6
+PyFoam>=2023.7
+matplotlib>=3.8
